@@ -1,0 +1,31 @@
+object Form1: TForm1
+  Left = 362
+  Top = 120
+  Width = 928
+  Height = 488
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ListBox1: TListBox
+    Left = 136
+    Top = 104
+    Width = 649
+    Height = 265
+    ItemHeight = 13
+    TabOrder = 0
+  end
+  object ServerSocket1: TServerSocket
+    Active = False
+    Port = 0
+    ServerType = stNonBlocking
+    Left = 16
+    Top = 96
+  end
+end
